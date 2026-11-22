@@ -1,4 +1,5 @@
 import React from "react";
+import './Content.css';
 
 const Content: React.FC = () =>{
     return(
@@ -11,8 +12,10 @@ const Content: React.FC = () =>{
                   src="/images/francisca.jpg"
                 />
               </div>
-              <span className="time">Hace una hora</span>
-              <p>Fui a comer con amigos</p>
+              <div className="taskInfo">
+                <span className="time">Hace una hora</span>
+                <p>Fui a comer con amigos</p>
+              </div>
             </div>
             <div className="item">
               <div className="avatar">
@@ -21,8 +24,10 @@ const Content: React.FC = () =>{
                   src="/images/paco.jpg"
                 />
               </div>
-              <span className="time">10:00 am</span>
-              <p>Leí un artículo sobre tecnología</p>
+                <div className="taskInfo">
+                    <span className="time">10:00 am</span>
+                    <p>Leí un artículo sobre tecnología</p>
+                </div>
             </div>
             <div className="item">
               <div className="avatar">
@@ -31,8 +36,10 @@ const Content: React.FC = () =>{
                   src="/images/quica.jpg"
                 />
               </div>
-              <span className="time">10:00 am</span>
-              <p>Escribí notas sobre un proyecto importante</p>
+                <div className="taskInfo">
+                    <span className="time">10:00 am</span>
+                    <p>Escribí notas sobre un proyecto importante</p>
+                </div>
             </div>
             <div className="item">
               <div className="avatar">
@@ -41,8 +48,10 @@ const Content: React.FC = () =>{
                   src="/images/curro.jpg"
                 />
               </div>
-              <span className="time">2:21 pm</span>
-              <p>Preparé la presentación para la reunión de mañana</p>
+                <div className="taskInfo">
+                    <span className="time">2:21 pm</span>
+                    <p>Preparé la presentación para la reunión de mañana</p>
+                </div>
             </div>
         </div>
     );

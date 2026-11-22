@@ -1,0 +1,31 @@
+.header{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+    background-color: #f2f2f2;
+    padding: 20px;
+}
+
+.header h1{
+    font-size: 24px;
+    margin: 0;
+    color: black;
+}
+
+.searchInput{
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    outline: auto;
+    width: 180px;
+}
+
+.searchIcon{
+    font-size: 20px;
+    color: red;
+}
+
+.searchIcon:hover{
+    cursor: pointer;
+}
